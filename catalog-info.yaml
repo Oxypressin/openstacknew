@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "openstack"
+  description: "openstack"
+  annotations:
+    github.com/project-slug: damodarkumar/openstacknew
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/myteam"
